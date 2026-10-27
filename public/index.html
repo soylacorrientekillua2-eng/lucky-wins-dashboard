@@ -9,11 +9,17 @@
 </head>
 <body>
 
+    <!-- Fondo de video/GIF en bucle -->
+    <div class="bg-overlay"></div>
+    <video autoplay muted loop playsinline class="bg-video">
+        <source src="https://i.ibb.co/XkxKFR8d/background.mp4" type="video/mp4">
+    </video>
+
     <!-- Barra de Navegación -->
     <header class="navbar">
         <div class="logo-container">
             <div class="bot-avatar-container">
-                <img src="https://i.imgur.com/7A26W0m.png" alt="Lucky Wins" class="bot-avatar">
+                <img src="https://i.ibb.co/TDyTCTZv/avatar.jpg" alt="Lucky Wins" class="bot-avatar">
             </div>
             <span class="bot-name">LUCKY WINS <span class="badge-version">777</span></span>
         </div>
@@ -37,7 +43,8 @@
             Exclusividad, altas apuestas y control absoluto. Entra al nivel superior del juego, domina las mesas y asegura tu victoria en cada jugada.
         </p>
 
-        <a href="#" class="btn-invite">
+        <!-- Botón conectado directamente al OAuth2 de tu bot -->
+        <a href="https://discord.com/oauth2/authorize?client_id=1564729301629272195&permissions=8&integration_type=0&scope=bot+applications.commands" target="_blank" class="btn-invite">
             Jugar Ahora ↗
         </a>
     </main>
